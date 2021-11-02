@@ -38,8 +38,6 @@ export const parseUniqueTraits = async (Identity) => {
 		arr.push(i);
 	}
 
-	console.log('->');
-
 	let allUniqueTraits = [];
 	// grabs and finds all unique traits in 1 pool
 	for (let j = 0; j < Identity.mostAttributesPerNFT; j++) {
