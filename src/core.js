@@ -25,7 +25,6 @@ export const mothership = async () => {
 		Identity.account = await connectToWallet(Identity);
 		Identity.jsonOfABI = await getJsonOfABI(Identity);
 		Identity.totalSupply = await getTotalSupply(Identity);
-		Identity.totalSupply = 5;
 		Identity.tokenURI = await getTokenURI(Identity);
 		// in case not 1,2,3 - tokenByIndex not used
 		Identity.tokenByIndex = await getTokenByIndex(Identity);
